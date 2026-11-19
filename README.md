@@ -2,7 +2,7 @@
 
 A [MADSci](https://github.com/AD-SDL/MADSci) node module that exposes a node's actions over [SiLA 2](https://sila-standard.com/).
 
-The `SilaNode` can be used to replace `RestNode` in any MADSci node. This is a side project and we do not guarantee full functionality or updates, but hope that it provides a useful starting place for anyone inetersted. 
+The `SilaNode` can be used to replace `RestNode` in any MADSci node. This is a side project and we do not guarantee full functionality or updates, but hope that it provides a useful starting place for anyone interested. 
 
 `SilaNode` subclasses MADSci's `AbstractNode`. When the node starts, it reads the node's action definitions and builds a SiLA Feature Definition (XML) from them. It then serves that feature from a SiLA 2 server, so any SiLA 2 client can discover and call the node's actions.
 
