@@ -1,0 +1,8 @@
+README.md
+madsci_sila_node.py
+pyproject.toml
+madsci_sila_node.egg-info/PKG-INFO
+madsci_sila_node.egg-info/SOURCES.txt
+madsci_sila_node.egg-info/dependency_links.txt
+madsci_sila_node.egg-info/requires.txt
+madsci_sila_node.egg-info/top_level.txt

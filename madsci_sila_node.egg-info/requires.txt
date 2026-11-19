@@ -1,0 +1,8 @@
+madsci.common>=0.8.1
+madsci.node_module>=0.8.1
+pydantic>=2
+sila2>=0.14.0
+
+[dev]
+pytest
+ruff

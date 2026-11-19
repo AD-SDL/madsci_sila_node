@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "madsci_sila_node"
+version = "0.1.0"
+description = "A MADSci node module that exposes node actions over SiLA 2."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "AD-SDL" }]
+keywords = ["madsci", "sila", "sila2", "laboratory automation", "self-driving labs"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "madsci.common>=0.8.1",
+    "madsci.node_module>=0.8.1",
+    "sila2>=0.14.0",
+    "pydantic>=2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[project.urls]
+Homepage = "https://github.com/AD-SDL/madsci_sila_node"
+Repository = "https://github.com/AD-SDL/madsci_sila_node"
+MADSci = "https://github.com/AD-SDL/MADSci"
+
+[tool.setuptools]
+py-modules = ["madsci_sila_node"]
